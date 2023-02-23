@@ -10,7 +10,7 @@
         public DateTime SubmittedDateTime { get; set; }
 
 
-        public Ticket(string agentname, string clientname string issue, string details, DateTime submitteddatetime)
+        public Ticket(string agentname, string clientname, string issue, string details, DateTime submitteddatetime)
         {
             AgentName = agentname;
             ClientName = clientname;
