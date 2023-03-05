@@ -17,10 +17,11 @@ namespace TicketTracker2.Controllers
             return View();
         }
 
-        // GET: TicketController/Create
-        public ActionResult Create()
+        // GET: TicketController/Create+
+        [Route("/addTicket/form")]
+        public ActionResult AddTicketForm()
         {
-            return View();
+            return View("AddTicketForm");
         }
 
         // POST: TicketController/Create
